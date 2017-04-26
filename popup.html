@@ -1,0 +1,32 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>eego extension popup</title>
+
+    <link rel="stylesheet" type="text/css" href="popup.css">
+    <script src="jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="popup-container">
+      <div class="saved-box">
+        <h2>Item saved!</h2>
+      </div>
+
+      <form id="login-form">
+        <h1>Log In</h1>
+        <p>Email Address</p>
+        <input class="field" type="text" name="email">
+        <p>Password</p>
+        <input class="field" type="password" name="password">
+        <input class="button" type="submit" value="Log in to eego">
+      </form>
+    </div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
