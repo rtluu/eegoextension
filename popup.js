@@ -11,7 +11,7 @@ function authenticateUser(){
 
     let request = $.ajax({
       method: 'POST',
-      url: 'https://staging.eego.co/api/items',
+      url: 'https://eego.co/api/items',
       headers: { 'Authorization': 'JWT ' +  token},
       data: {
         originalUrl: url
@@ -41,7 +41,7 @@ function userLogin(){
 
     let request = $.ajax({
       method: 'POST',
-      url: 'https://staging.eego.co/api/auth/login',
+      url: 'https://eego.co/api/auth/login',
       data: {
         email: email,
         password: password
@@ -52,7 +52,7 @@ function userLogin(){
       localStorage.setItem('user_token', response.token);
       let request = $.ajax({
         method: 'POST',
-        url: 'https://staging.eego.co/api/items',
+        url: 'https://eego.co/api/items',
         headers: { 'Authorization': 'JWT ' +  response.token},
         data: {
           originalUrl: url
