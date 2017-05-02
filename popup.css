@@ -112,3 +112,24 @@ form .button:hover{
   background: #7A3DFE;
   border: 1px solid #7A3DFE;
 }
+
+form h6.signup{
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 32px auto;
+  text-align: center;
+}
+
+form h6.signup a{
+  color: #7A3DFE;
+  text-decoration: none;
+  -webkit-transition: ease-in-out 0.1s;
+  -moz-transition: ease-in-out 0.1s;
+  -o-transition: ease-in-out 0.1s;
+  transition: ease-in-out 0.1s;
+}
+
+form h6.signup a:hover{
+  opacity: 0.75;
+}
