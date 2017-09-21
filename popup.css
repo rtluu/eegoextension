@@ -77,9 +77,8 @@ form p{
 }
 
 form .field{
-  background: transparent;
+  background-color: #F2F2F2;
   border: 0;
-  border-bottom: 1px solid #DDDDDD;
   border-radius: 0;
   box-sizing: border-box;
   display: block;
@@ -87,6 +86,7 @@ form .field{
   height: 36px;
   margin: 0px 0 32px 0;
   outline: none;
+  padding-left: 16px;
   text-align: left;
   width: 100%;
 }
@@ -94,7 +94,7 @@ form .field{
 form .button{
   border: 1px solid black;
   background: black;
-  border-radius: 0px;
+  border-radius: 8px;
   box-sizing: border-box;
   color: white;
   cursor: pointer;
@@ -109,8 +109,8 @@ form .button{
 }
 
 form .button:hover{
-  background: #7A3DFE;
-  border: 1px solid #7A3DFE;
+  background: #0366D6;
+  border: 1px solid #0366D6;
 }
 
 form h6.signup{
@@ -122,7 +122,7 @@ form h6.signup{
 }
 
 form h6.signup a{
-  color: #7A3DFE;
+  color: #0366D6;
   text-decoration: none;
   -webkit-transition: ease-in-out 0.1s;
   -moz-transition: ease-in-out 0.1s;

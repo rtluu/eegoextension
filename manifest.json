@@ -1,12 +1,12 @@
 {
 
-	"manifest_version": 2,
+	"manifest_version": 3,
 
-	"name": "eego extension",
+	"name": "neat extension",
 	"version": "0.0.3",
-	"description": "Create visual collections of multimedia and resources",
+	"description": "Save anything valuable you come across on the web to a judgement free network.",
 	"browser_action": {
-		"default_title": "Collect this",
+		"default_title": "Save to neat",
 		"default_popup": "popup.html",
 		"default_icon": {
 			"19": "images/icon19.png",
@@ -22,7 +22,7 @@
 		"activeTab",
 		"storage",
 		"tabs",
-		"https://eego.co"
+		"https://neat.to"
   ]
 
 }
