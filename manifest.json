@@ -3,7 +3,7 @@
 	"manifest_version": 2,
 
 	"name": "neat extension",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"description": "Neat is a community for gathering information on the internet",
 	"browser_action": {
 		"default_title": "Save to neat",
